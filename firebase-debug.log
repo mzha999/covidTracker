@@ -1,0 +1,84 @@
+[debug] [2021-05-01T13:23:25.489Z] ----------------------------------------------------------------------
+[debug] [2021-05-01T13:23:25.491Z] Command:       /usr/local/bin/node /usr/local/bin/firebase -P covid-19-tracker-39f1d init
+[debug] [2021-05-01T13:23:25.492Z] CLI Version:   9.10.0
+[debug] [2021-05-01T13:23:25.492Z] Platform:      darwin
+[debug] [2021-05-01T13:23:25.492Z] Node Version:  v14.16.1
+[debug] [2021-05-01T13:23:25.493Z] Time:          Sun May 02 2021 01:23:25 GMT+1200 (New Zealand Standard Time)
+[debug] [2021-05-01T13:23:25.493Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-01T13:23:25.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-01T13:23:25.509Z] > authorizing via signed-in user (mzha999@aucklanduni.ac.nz)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/test/Desktop/2021 React/covidTracker/covidtracker
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-01T13:23:28.586Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-39f1d [none]
+[debug] [2021-05-01T13:23:29.461Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-39f1d 403
+[debug] [2021-05-01T13:23:29.461Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-39f1d {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-05-01T13:23:29.462Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-05-01T13:23:29.949Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/usr/local/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/usr/local/lib/node_modules/firebase-tools/lib/init/features/project.js:84:27)
+    at async init (/usr/local/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project covid-19-tracker-39f1d. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-05-01T13:25:13.896Z] ----------------------------------------------------------------------
+[debug] [2021-05-01T13:25:13.898Z] Command:       /usr/local/bin/node /usr/local/bin/firebase -P covid-19-tracker-39f1d init
+[debug] [2021-05-01T13:25:13.899Z] CLI Version:   9.10.0
+[debug] [2021-05-01T13:25:13.899Z] Platform:      darwin
+[debug] [2021-05-01T13:25:13.899Z] Node Version:  v14.16.1
+[debug] [2021-05-01T13:25:13.900Z] Time:          Sun May 02 2021 01:25:13 GMT+1200 (New Zealand Standard Time)
+[debug] [2021-05-01T13:25:13.900Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-01T13:25:13.909Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-01T13:25:13.909Z] > authorizing via signed-in user (mzha999@aucklanduni.ac.nz)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/test/Desktop/2021 React/covidTracker/covidtracker
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-01T13:25:16.449Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-39f1d [none]
+[debug] [2021-05-01T13:25:17.106Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-39f1d 403
+[debug] [2021-05-01T13:25:17.106Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-39f1d {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-05-01T13:25:17.107Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-05-01T13:25:17.412Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/usr/local/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/usr/local/lib/node_modules/firebase-tools/lib/init/features/project.js:84:27)
+    at async init (/usr/local/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project covid-19-tracker-39f1d. Please make sure the project exists and your account has permission to access it.
